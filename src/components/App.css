@@ -1,0 +1,17 @@
+div {
+	text-align: center;
+}
+
+.card {
+  background-image: linear-gradient(to bottom right, lightblue, yellow);
+}
+
+.city-buttons-container {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.weather-details-header {
+	text-decoration: underline;
+}
