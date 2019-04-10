@@ -3,7 +3,7 @@ import React from "react";
 
 function WeatherDetails(props) {
   return (
-    <div className="card">
+    <div className="slds-card">
       <h1>{props.City.name} <img src={`http://openweathermap.org/img/w/${props.City.weather[0].icon}.png`} width="50" height="50" style={{ margin: 'auto' }} /></h1>
       <h2 className="weather-details-header">Weather details:</h2>
       <h3>Forecast: {props.City.weather[0].main}</h3>

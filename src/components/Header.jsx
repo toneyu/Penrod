@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <h1 className="jumbotron">Weather at the Penrod offices!</h1>
+    <h1 className="slds-builder-header">Weather at the Penrod Offices!</h1>
   );
 }
 
