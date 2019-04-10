@@ -4,9 +4,8 @@ import WeatherDetails from "./WeatherDetails";
 import Apikey from "../Api-key";
 import './App.css';
 // import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
-import { Button } from '@salesforce/design-system-react';
 import '@salesforce-ux/design-system/assets/styles/salesforce-lightning-design-system.css'
-import backgroundimg from "../assets/images/space.jpg"
+//import backgroundimg from "../assets/images/space.jpg"
 
 const url = city => `http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${Apikey}`
 
@@ -22,7 +21,7 @@ class App extends React.Component {
     this.showCityWeather = this.showCityWeather.bind(this);
   }
 
-  // 
+  // function to fetch city data from weather API 
   getData(city) {
       fetch(url(city))
       .then(result => result.json())
@@ -33,7 +32,9 @@ class App extends React.Component {
       })
     
   }
-
+  /*
+  function to display weather details
+  */
   showCityWeather() {
     if (!this.state.City) { //if null or undefined 
       return <p className = "City">Click on a City</p>
