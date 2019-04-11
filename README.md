@@ -1,5 +1,8 @@
-# Application for displaying the weather at locations of Penrod Offices
+# Web Application for displaying the weather at locations of Penrod Offices
   -Chicago, Dallas, Minneapolis, Milwaukee
+
+# Using API instructions
+Register on {https://openweathermap.org/api} for an API Key
 
 # Install and running Instructions
 Access project @ https://github.com/toneyu/Penrod to clone
@@ -9,11 +12,10 @@ Run the following two commands
 npm install # install dependencies
 npm run start # runs webpack dev server
 ```
-# Using API instructions
-Register on {https://openweathermap.org/api} for an API Key
+# Storing API-key
 Create Api-key.js file to store API key
 
-Write one line in file -> (export default "enter your API key here");
+Copy one line in Api-key.js file -> (export default "enter your API key here");
 
 
 # Component Files	
@@ -24,8 +26,12 @@ Write one line in file -> (export default "enter your API key here");
 - ## Header.jsx
 	Website Header
 
-- ## Api-key.js
-	 file holding your private API key 
-
 - ## WeatherDetails.jsx
-	 Displays information about weather details
+	Displays information about weather details- 
+	 
+- ## Api-key.js
+	file holding your private API key 
+
+- ## App.css
+	Custom CSS file
+
