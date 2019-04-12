@@ -3,7 +3,6 @@ import Header from "./Header";
 import WeatherDetails from "./WeatherDetails";
 import Apikey from "../Api-key";
 import './App.css';
-// import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 import '@salesforce-ux/design-system/assets/styles/salesforce-lightning-design-system.css'
 import backgroundimg from "../../assets/images/space.jpg"
 

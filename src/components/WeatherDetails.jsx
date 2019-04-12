@@ -12,6 +12,9 @@ const gifs = {
   Clear: { image: clearGif, fontColor: 'black', },
 };
 
+/*
+Gets the forecast field in API
+*/
 function WeatherDetails(props) {
   const forecast = props.City.weather[0].main;
 
@@ -38,7 +41,9 @@ function WeatherDetails(props) {
     </div>
   );
 }
-
+/*
+Converts Kelvin to Fahrenheit
+*/
 function kelvinToFahrenheit(temp) {
   return ((temp - 273.15) * 1.8) + 32;
 }
