@@ -27,7 +27,7 @@ export default "enter your API key here";
 ```bash
 npm run start 
 ```
-
+5. View the project on http://localhost:8080/ in web browser of choice
 
 
 # Component Files	
