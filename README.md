@@ -3,7 +3,7 @@
 ### Made by Tone Yu
 
 
-# Install and running Instructions
+# Install and Running Instructions
 Access project @ https://github.com/toneyu/Penrod 
 
 1. In desired project folder, download repo by entering this command in terminal
