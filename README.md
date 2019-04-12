@@ -1,23 +1,33 @@
-# Web Application for displaying the current weather at all the Penrod Offices
-  -Chicago, Dallas, Minneapolis, Milwaukee
+# Weather for Penrod
+### Web Application for displaying the current weather at all the Penrod Offices: Chicago, Dallas, Minneapolis, Milwaukee
+### Made by Tone Yu
 
-# Using API instructions
-Register on {https://openweathermap.org/api} for an API Key
 
 # Install and running Instructions
 Access project @ https://github.com/toneyu/Penrod 
 
-Run the following three commands
+1. In desired project folder, download repo by entering this command in terminal
 ```bash
-1. git clone https://github.com/toneyu/Penrod.git 
-# install project
-2. npm install # install dependencies
-3. npm run start # runs webpack dev server
+git clone https://github.com/toneyu/Penrod.git
+``` 
+2. Install dependencies in root directory
+```bash
+npm install 
 ```
-# Storing API-key
-Create Api-key.js file to store API key
 
-Copy one line in Api-key.js file -> (export default "enter your API key here");
+3. Register on {https://openweathermap.org/api} for an API Key
+Create Api-key.js file in src folder to store API key in  
+
+**src/Api-key.js** 
+```bash
+export default "enter your API key here";
+```
+
+4. Runs webpack dev server
+```bash
+npm run start 
+```
+
 
 
 # Component Files	
